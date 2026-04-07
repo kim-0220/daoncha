@@ -121,9 +121,7 @@ header .sns li{
         align-items: center;
         line-height: 0;
     }
-    .menu-top .logo{
-        
-    }
+
     .menu-top .logo img{
         height:5rem;
         
@@ -141,8 +139,7 @@ header .sns li{
         gap:3rem 1rem;
         font-size: var(--fs-bd2);
     }
-    .gnb-smart>li{
-    }
+
     .gnb-smart>li>a{
         font-weight: var(--fw-bold);
         display: block;
@@ -192,8 +189,8 @@ header .sns li{
         border-left: none;
         padding-left: 0;
         margin-bottom: 1rem;
-        color:#000;
-        border-bottom: 1px solid #000;
+        color:#2B2B2B;
+        border-bottom: 1px solid #2B2B2B;
         box-sizing: border-box;
     }
     .gnb-smart ul a{

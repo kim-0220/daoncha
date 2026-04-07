@@ -1,6 +1,7 @@
 .sub-banner{
     height:600px;
-    background: url(../img/sub-banner-story.jpg) 50% 50% / cover;
+    background: linear-gradient(45deg,rgba(0, 0, 0, 0.406),rgba(0, 0, 0, 0.497)),
+    url(../img/sub-banner-story.jpg) 50% 50% / cover;
 }
 .sub-banner .common-frame{
     display: flex;
