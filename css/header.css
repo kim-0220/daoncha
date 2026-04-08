@@ -25,19 +25,22 @@ header .common-frame{
     gap:2.5rem;
 }
 .gnb>li>a{
+    width: 125px;
     font-size:var(--fs-bd2);
     font-weight: var(--fw-bold);
     height:100px;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: .5rem;
 }
 .gnb ul{
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 0.5rem;
     font-size:var(--fs-bd2);
     font-weight: var(--fw-med);
+    align-items: center;
 }
 header .sns{
     height: 100px;
@@ -138,6 +141,10 @@ header .sns li{
         grid-template-columns: repeat(4,1fr);
         gap:3rem 1rem;
         font-size: var(--fs-bd2);
+    }
+
+    .gnb-smart a:hover{
+        color: var(--point-color);
     }
 
     .gnb-smart>li>a{

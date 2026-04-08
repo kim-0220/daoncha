@@ -50,7 +50,7 @@
     margin-top: var(--space-x-large);
 }
 .come1-dl1+p{
-    margin-top: var(--space-small);
+    margin-top: var(--space-large);
     font-size: var(--fs-bd2);
     color:#E65252;
 }

@@ -31,7 +31,7 @@
     background: var(--point-color);
 }
 .story{
-    margin:var(--space-3x-large) 0;
+    margin:var(--space-2x-large) 0;
 }
 .story h1{
     margin-bottom: var(--space-2x-large);
@@ -39,7 +39,7 @@
 }
 .story-frame{
     display: flex;
-    gap: var(--space-normal);
+    gap: var(--space-x-large);
 }
 .txt-story{flex:5;}
 .img-story{flex:7;}
