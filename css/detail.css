@@ -37,6 +37,7 @@
     display: block;
     font-weight: var(--fw-reg);
     font-size: var(--fs-bd2);
+    padding-top: .5rem;
 }
 .sell-info{
     display: flex;
