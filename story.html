@@ -22,8 +22,8 @@
         <!-- core value -->
         <div class="core">
             <div class="common-frame">
-                <h1>A Modern Korean<br><span class="ti-color">Tea Brand</span></h1>
-                <p>다온차는 한국의 전통 재료에서 영감을 받아<br>오늘의 감각으로 재해석하는 티브랜드입니다.</p>
+                <h1 class="reveal-down">A Modern Korean<br><span class="ti-color">Tea Brand</span></h1>
+                <p class="reveal-down">다온차는 한국의 전통 재료에서 영감을 받아<br>오늘의 감각으로 재해석하는 티브랜드입니다.</p>
                 <div class="swiper core-swiper">
                     <ul class="core-card swiper-wrapper">
                         <li class="swiper-slide">
@@ -97,6 +97,23 @@
             </div>
 
         </div>
+        <script>
+            const elements = document.querySelectorAll('.reveal-down');
+
+            function showOnScroll() {
+            const trigger = window.innerHeight * 0.85;
+
+            elements.forEach(el => {
+                const top = el.getBoundingClientRect().top;
+
+                if (top < trigger) {
+                el.classList.add('active');
+                }
+            });
+            }
+
+            window.addEventListener('scroll', showOnScroll);
+        </script>
 
         <!-- identity -->
         <div class="identity">
