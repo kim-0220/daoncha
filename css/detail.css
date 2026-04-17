@@ -90,7 +90,6 @@
     justify-content: flex-end;
     align-items: center;
 }
-.btns-buy>li{}
 .btns-buy>li a{
     display: flex;
     padding:var(--space-small) 0;
