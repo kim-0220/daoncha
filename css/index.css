@@ -88,6 +88,24 @@
     margin-bottom: var(--space-small);
 }
 
+.menu-frame .swiper-slide img{
+    aspect-ratio: 3/4;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.menu-frame .swiper-slide figure:hover img{
+    transform:scale(0.9);
+}
+
+.menu-frame .swiper-slide figure img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition:all 0.7s ease 0s;
+}
+
+
 .franchise{
     background:
     linear-gradient(30deg,rgba(0, 0, 0, 0.62),rgba(0, 0, 0, 0.62)),
