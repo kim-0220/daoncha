@@ -1,27 +1,27 @@
 .hero-slider{
-    width:100%;
+    width: 100%;
     height: calc(100vh - 100px);
 }
 .hero-slider .swiper-slide img{
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 .hero-slider.swiper .pagination{
     display: flex;
-    gap:.5rem;
+    gap: .5rem;
     position: absolute;
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
-    bottom:2rem;
+    bottom: 2rem;
     z-index: 10;
     justify-content: center;
 }
 .pagination>span{
-    background:#fff;
-    box-shadow: 0 0 10px #ddd;
-    width:0.8rem;
-    height:0.8rem;
+    background:white;
+    box-shadow: 0 0 10px antiquewhite;
+    width: 0.8rem;
+    height: 0.8rem;
     border-radius: 50%;
 }
 .hero-slider .swiper-pagination-bullet {
@@ -31,7 +31,7 @@
     background: var(--point-color);
 }
 .story{
-    margin:var(--space-2x-large) 0;
+    margin: var(--space-2x-large) 0;
 }
 .story h1{
     margin-bottom: var(--space-2x-large);
@@ -41,9 +41,12 @@
     display: flex;
     gap: var(--space-x-large);
 }
-.txt-story{flex:5;}
-.img-story{flex:7;}
-
+.txt-story{
+    flex: 5;
+}
+.img-story{
+    flex: 7;
+}
 .story-frame h2{
     margin-bottom: var(--space-normal);
 }
@@ -58,10 +61,10 @@
 }
 .philo-list{
     display: flex;;
-    gap:var(--space-normal);
+    gap: var(--space-normal);
 }
 .philo-list>li{
-    flex:1;
+    flex: 1;
 }
 .philo-list>li h3{
     margin-bottom: var(--space-large);
@@ -73,7 +76,6 @@
 .philo-list>li h3+div p:nth-of-type(1){
     margin-bottom: var(--space-normal);
 }
-
 .menu-frame{
     margin-bottom: var(--space-3x-large);
 }
@@ -87,20 +89,17 @@
     margin-top: 1.5rem;
     margin-bottom: var(--space-small);
 }
-
 .menu-frame .swiper-slide figure{
     aspect-ratio: 2/3;
     line-height: 0;
     overflow: hidden;
 }
-
 .menu-frame .swiper-slide figure:hover img{
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
-
 .menu-frame .swiper-slide figure img{
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     transition: all 0.7s ease 0s;
 }
@@ -126,40 +125,37 @@
 .why{
     margin-top: var(--space-2x-large);
     display: flex;
-    gap:var(--space-normal);
+    gap: var(--space-normal);
     text-align: left;
 }
 .why>li{
     background-color: rgba(83, 83, 83, 0.43);
-    padding:var(--space-normal);
+    padding: var(--space-normal);
     border-radius: .5rem;
     backdrop-filter: blur(10px);
-    /* 배경색이 투명해야만 적용이 된다. */
 }
 .why>li>p:first-of-type{
     margin-bottom: var(--space-small);
 }
-
-
 .reveal-text {
   opacity: 0;
   transform: translateY(60px);
   will-change: transform, opacity;
 }
 
-
-
-
-
-
 @media (max-width:1440px){
     .hero-slider{
-        width:100%;
+        width: 100%;
         height: auto;
     }
-    .txt-story{flex:1;}
-    .img-story{flex:1;}
+    .txt-story{
+        flex: 1;
+    }
+    .mg-story{
+        flex: 1;
+    }
 }
+
 @media (max-width:768px){
     .story h1 {
         text-align: center;
@@ -175,7 +171,7 @@
     }
     .why{
         display: grid;
-        gap:var(--space-normal);
+        gap: var(--space-normal);
         grid-template-columns: repeat(2,1fr);
     }
 }

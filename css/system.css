@@ -1,10 +1,8 @@
 :root{
-    /* 화면에 따른 수치 */
     --basic-font-pc:20px;
     --basic-font-tab:18px;
     --basic-font-mobile:14px;
 
-    /* 글씨 크기 */
     --fs-h1:1.601rem;
     --fs-h2:1.423rem;
     --fs-h3:1.265rem;
@@ -13,12 +11,10 @@
     --fs-bd2:0.875rem;
     --fs-det:0.765rem;
 
-    /* 글씨 굵기 */
     --fw-reg:400;
     --fw-med:500;
     --fw-bold:700;
 
-    /* 색상 */
     --pm-color-0:#C5E0AA;
     --pm-color-100:#B8DD93;
     --pm-color-200:#ACD980;
@@ -31,7 +27,6 @@
     --pm-color-900:#394D26;
     --point-color:#DBCE8B;
 
-    /* 여백 */
     --space-2x-small:0.125rem;
     --space-x-small:0.25rem;
     --space-small:0.5rem;
@@ -40,5 +35,4 @@
     --space-x-large:3rem;
     --space-2x-large:4rem;
     --space-3x-large:6rem;
-
 }

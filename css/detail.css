@@ -3,20 +3,20 @@
 }
 .product1 .common-frame{
     display: flex;
-    gap:var(--space-normal);
+    gap: var(--space-normal);
 }
 .product1 .common-frame>figure{
-    flex:1;
+    flex: 1;
     aspect-ratio: 1/1;
     line-height: 0;
 }
 .product1 .common-frame>figure img{
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 .product1 .common-frame>div{
-    flex:1;
+    flex: 1;
 }
 .txt-pro h1{
     margin-bottom: var(--space-small);
@@ -27,7 +27,7 @@
 .price-table{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap:var(--space-small) var(--space-normal);
+    gap: var(--space-small) var(--space-normal);
     margin-bottom: var(--space-large);
 }
 .price-table dd{
@@ -41,15 +41,15 @@
 }
 .sell-info{
     display: flex;
-    gap:var(--space-normal);
+    gap: var(--space-normal);
     align-items: center;
-    padding:var(--space-normal) 0;
-    border-top:1px solid #999;
-    border-bottom:1px solid #999;
+    padding: var(--space-normal) 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
     margin-bottom: var(--space-large);
 }
 .sell-info>div{
-    flex:1;
+    flex: 1;
 }
 .box-number{
     display: flex;
@@ -64,13 +64,13 @@
     cursor: pointer;
 }
 .btn-minus img{
-    height:1.2rem;
+    height: 1.2rem;
 }
 .btn-plus img{
     height: 1.2rem;
 }
 .current-count{
-    padding:0 1.5rem;
+    padding: 0 1.5rem;
 }
 .price-result{
     display: flex;
@@ -96,31 +96,37 @@
     justify-content: center;
     font-size: var(--fs-bd2);
     font-weight: var(--fw-bold);
-    border:1px solid #000;
+    border: 1px solid black;
 }
 .btns-buy>li:nth-of-type(1) a{
     justify-content: flex-end;
     border: none;
 }
-.btns-buy>li:nth-of-type(1){flex:1;}
-.btns-buy>li:nth-of-type(2){flex:2;}
-.btns-buy>li:nth-of-type(3){flex:3;}
+.btns-buy>li:nth-of-type(1){
+    flex:1;
+}
+.btns-buy>li:nth-of-type(2){
+    flex:2;
+}
+.btns-buy>li:nth-of-type(3){
+    flex:3;
+}
 .btns-buy>li:nth-of-type(3) a{
     background-color: var(--point-color);
 }
 .sticky-menu{
     display: flex;
-    gap:var(--space-normal);
+    gap: var(--space-normal);
     justify-content: center;
     font-size: var(--fs-bd2);
     font-weight: var(--fw-bold);
 }
 .sticky-menu a{
-    padding:var(--space-small) var(--space-large);
+    padding: var(--space-small) var(--space-large);
     display: block;
     box-shadow: 0 4px 9.2px rgba(0, 0, 0, 0.1);;
     border-radius: 150px;
-    background-color: #fff;
+    background-color: white;
 }
 .sticky-menu>li{
     flex-shrink: 0;
@@ -128,8 +134,8 @@
 .sticky-menu-wrap{
     overflow-x: auto;
     position: sticky;
-    left:0;
-    top:5.5rem;
+    left: 0;
+    top: 5.5rem;
     margin: var(--space-3x-large) auto 2rem;
     z-index: 1000;
     padding-bottom: var(--space-2x-large);
@@ -137,7 +143,7 @@
 .list-grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap:var(--space-x-large) var(--space-normal);
+    gap: var(--space-x-large) var(--space-normal);
 }
 .list-wrap{
     margin-bottom: var(--space-3x-large);
@@ -149,13 +155,13 @@
     overflow: hidden;
 }
 .list-grid li:hover figure img{
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
 .list-grid li figure img{
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    transition:all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
 }
 .list-option{
     margin-bottom: var(--space-small);
@@ -179,7 +185,6 @@
 .price{
     font-size: var(--fs-h2);
 }
-
 .recomd-product h2{
     margin-bottom: var(--space-x-large);
     text-align: center;
@@ -193,11 +198,11 @@
 }
 .nutri-inner{
     display: flex;
-    gap:var(--space-normal);
+    gap: var(--space-normal);
     align-items: flex-end;
 }
 .nutri-inner>div{
-    flex:1;
+    flex: 1;
 }
 .nutri1 h3{
     margin-bottom: var(--space-small);
@@ -206,11 +211,11 @@
     margin-bottom: var(--space-large);
 }
 .nutri1 table{
-    border-top:2px solid var(--point-color);
-    width:100%;
+    border-top: 2px solid var(--point-color);
+    width: 100%;
 }
 .nutri1 table tr{
-    border-bottom: 1px solid #000;;
+    border-bottom: 1px solid black;
 }
 .nutri1 table caption{
     text-align: right;
@@ -219,12 +224,12 @@
 }
 .nutri1 table th{
     text-align: left;
-    width:50%;
+    width: 50%;
     font-weight: var(--fw-reg);
-    padding:var(--space-small) 0;
+    padding: var(--space-small) 0;
 }
 .nutri1 table td{
-    padding:var(--space-small) 0;
+    padding: var(--space-small) 0;
 }
 .review{
     margin-top: var(--space-3x-large);
@@ -236,18 +241,18 @@
 }
 .rev-con{
     display: flex;
-    gap:var(--space-normal);
-    padding:var(--space-large) 0;
-    border-bottom:1px solid #000;
+    gap: var(--space-normal);
+    padding: var(--space-large) 0;
+    border-bottom: 1px solid black;
 }
 .rev-user-info{
-    flex:1;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    gap:var(--space-small);
+    gap: var(--space-small);
 }
 .rev-desc{
-    flex:3;
+    flex: 3;
 }
 .rev-desc h4{
     margin-bottom: var(--space-small);
@@ -256,7 +261,7 @@
     margin-bottom: var(--space-small);
     line-height: 0;
     display: flex;
-    gap:var(--space-normal);
+    gap: var(--space-normal);
 }
 .rev-thumb-list>li{
     flex-shrink: 0;
@@ -270,18 +275,18 @@
     overflow-x: auto;
     scroll-behavior: smooth;
 
-    -ms-overflow-style: none; /* IE */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .rev-thumb-list-wrap::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
+    display: none;
 }
 
 .rev-thumb-list-wrap img{
-  -webkit-user-drag: none; /* 크롬, 사파리 */
-  user-select: none;       /* 텍스트 선택 방지 */
-  pointer-events: none;    /* 이미지 클릭/드래그 차단 */
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 @media (max-width:1440px){
@@ -293,9 +298,10 @@
         margin-right: 2rem;
     }
     .rev-thumb-list>li img{
-        width:298px;
+        width: 298px;
     }
 }
+
 @media (max-width:768px){
     .sticky-menu-wrap{
         margin-left: 1rem;
@@ -303,7 +309,7 @@
     }
     .product1 .common-frame{
         flex-direction: column;
-        gap:var(--space-large);
+        gap: var(--space-large);
     }
     .sell-info{
         display: grid;
@@ -319,12 +325,12 @@
         grid-template-columns: repeat(2,1fr);
     }
     .nutri-inner{
-        gap:var(--space-x-large);
+        gap: var(--space-x-large);
         align-items: stretch;
         flex-direction: column-reverse;
     }
     .rev-thumb-list>li img{
-        width:250px;
+        width: 250px;
     }
     .rev-con{
         flex-direction: column;
