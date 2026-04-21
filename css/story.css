@@ -1,5 +1,5 @@
 .sub-banner{
-    height:600px;
+    height:400px;
     background: linear-gradient(45deg,rgba(0, 0, 0, 0.406),rgba(0, 0, 0, 0.497)),
     url(../img/sub-banner-story.jpg) 50% 50% / cover;
 }
@@ -118,7 +118,7 @@
 
 @media (max-width:1440px){
     .sub-banner{
-        height:400px;
+        height:500px;
     }
     .core h1{
         font-size:80px;
@@ -137,7 +137,7 @@
 }
 @media (max-width:768px){
     .sub-banner{
-        height:500px;
+        height:600px;
     }
     .core h1{
         font-size:60px;

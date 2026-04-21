@@ -88,5 +88,6 @@ footer{
     .ft-menu{
         flex-direction: column;
         align-self: stretch;
+        text-align: center;
     }
 }
